@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/bt_method"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="bt_method" />
+
+            <Button
+                android:id="@+id/bt_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="bt_image" />
+
+            <Button
+                android:id="@+id/bt_json"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="bt_json" />
+
+            <Button
+                android:id="@+id/bt_post_body"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="bt_post_body" />
+
+            <Button
+                android:id="@+id/bt_fastjson"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="bt_fastjson" />
+
+            <Button
+                android:id="@+id/bt_cache"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="bt_cache" />
+
+            <Button
+                android:id="@+id/bt_redirect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="bt_redirect" />
+
+            <Button
+                android:id="@+id/bt_uploadfile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="bt_uploadfile" />
+
+            <Button
+                android:id="@+id/bt_download"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="bt_download" />
+
+            <Button
+                android:id="@+id/bt_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="bt_cancel" />
+
+            <Button
+                android:id="@+id/bt_sync"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="bt_sync" />
+
+            <Button
+                android:id="@+id/bt_proxy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="bt_proxy" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Hello World!"
+                android:textSize="10sp" />
+
+            <ImageView
+                android:id="@+id/iv_image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
